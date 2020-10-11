@@ -99,7 +99,7 @@
 .menu-branding .portrait {
   width: 250px;
   height: 250px;
-  background: url("../dist/images/hanwen.png");
+  background: url("../images/hanwen.png");
   background-position: center;
   background-size: cover;
   border-radius: 50%;
@@ -180,7 +180,7 @@ body {
 }
 
 body#bg-img {
-  background: url(../dist/images//bg.png);
+  background: url("../images/bg.png");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -256,7 +256,8 @@ main#home h1 {
   display: -ms-grid;
   display: grid;
   gap: 10px;
-      grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
+      grid-template-areas: 'bioimage bio bio'
+ 'job1 job2 job3';
 }
 
 .about-info .bio-image {
@@ -441,7 +442,11 @@ main#home h1 {
     height: 150px;
   }
   .about-info {
-        grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+        grid-template-areas: 'bioimage'
+ 'bio'
+ 'job1'
+ 'job2'
+ 'job3';
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
