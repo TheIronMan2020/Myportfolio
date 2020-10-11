@@ -307,8 +307,8 @@ main#home h1 {
   display: -ms-grid;
   display: grid;
   gap: 20px;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .projects img {
@@ -392,15 +392,15 @@ main#home h1 {
 
 @media screen and (min-width: 1171px) {
   .projects {
-    -ms-grid-columns: (1fr)[4];
-        grid-template-columns: repeat(4, 1fr);
+ 
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .projects {
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
+   
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -451,8 +451,8 @@ main#home h1 {
         grid-template-columns: 1fr;
   }
   .projects {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+ 
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -461,8 +461,8 @@ main#home h1 {
     margin-top: 10vh;
   }
   .projects {
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+    
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 /*# sourceMappingURL=main.css.map */
